@@ -1,0 +1,53 @@
+:root {
+  color-scheme: dark;
+  --bg-deep: #0b1f1c;
+  --bg-mid: #12332e;
+  --bg-lift: #1a433c;
+  --ink: #e8f2ef;
+  --ink-muted: #9bb5ae;
+  --amber: #e8a54b;
+  --amber-soft: #f0c27a;
+  --cell-closed: #2a5a52;
+  --cell-closed-top: #357066;
+  --cell-open: #163832;
+  --cell-edge: #0a1816;
+  --danger: #d4544a;
+  --win: #6ecf9b;
+  --cell-size: 32px;
+  --radius: 4px;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  line-height: 1.4;
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--bg-deep);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
